@@ -1,0 +1,11 @@
+server:
+  port: 40001
+spring:
+  application:
+    name: mortalmall-plat-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:30003/eureka
+  instance:
+    prefer-ip-address: true
