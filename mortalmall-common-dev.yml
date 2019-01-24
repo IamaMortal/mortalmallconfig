@@ -1,0 +1,11 @@
+server:
+  port: 40010
+spring:
+  application:
+    name: mortalmall-common-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:30003/eureka
+  instance:
+    prefer-ip-address: true
